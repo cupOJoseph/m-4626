@@ -1,3 +1,13 @@
+# M-4626
+$M extension that wraps a yield bearing stablecoin into an ERC-4626 Vault. 
+
+## Installation
+
+```bash
+forge install
+forge build
+```
+
 ## $M Extensions Framework
 
 **M Extension Framework** is a modular templates of ERC-20 **stablecoin extensions** that wrap the yield-bearing `$M` token into non-rebasing variants for improved composability within DeFi. Each extension manages yield distribution differently and integrates with a central **SwapFacility** contract that acts as the exclusive entry point for wrapping and unwrapping.
